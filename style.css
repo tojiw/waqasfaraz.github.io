@@ -1,0 +1,166 @@
+body {
+  background-color: black;
+  color: white;
+  font-family: "DM Sans", sans-serif;
+}
+
+header {
+  height: 30vh;
+}
+.left {
+  font-weight: 400;
+  font-size: 1.8rem;
+  margin: 0 50px;
+}
+
+.left a {
+  text-decoration: none;
+  color: white;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+ul {
+  display: flex;
+}
+
+nav li {
+  list-style: none;
+  margin: 0 23px;
+}
+
+nav li a {
+  text-decoration: none;
+  color: white;
+}
+
+/* nav li a:hover{ */
+/* text-decoration: underline; */
+/* font-size: 0.7rem; */
+/* } */
+.firstsection {
+  display: flex;
+  justify-content: space-around;
+  margin: 80px 23px;
+  margin-bottom: -155px;
+}
+.firstsection div {
+  width: 34%;
+  height: 70vh;
+}
+
+.text {
+  width: 80%;
+  /* background-color: blue; */
+  font-weight: 400;
+  font-size: 3rem;
+  line-height: 1;
+  align-items: center;
+}
+.image {
+  /* background-color: blue; */
+  width: 50%;
+}
+
+.secondsection {
+  /* max-width: 50vh; */
+  /* height: 100px; */
+  margin: 80px;
+  margin-left: 0;
+  margin-right: 16px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.secondsection div {
+  /* background-color: blue; */
+  width: 30%;
+  /* height:100px */
+}
+
+.headinfo {
+  width: 80%;
+  /* animation: fadeIn 2.5s; */
+}
+
+#descp-text {
+  font-size: 1.2rem;
+}
+
+img {
+  width: 100%;
+}
+
+.photo {
+  border-radius: 30px;
+  width: 80%;
+}
+
+.photo2 {
+  border-radius: 30px;
+  width: 90%;
+}
+
+#style-text {
+  text-decoration: underline;
+}
+
+.headinfo a {
+  text-decoration: none;
+  color: white;
+}
+.spacingsection {
+  min-height: 40vh;
+}
+
+hr {
+  width: 30%;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer2 {
+  margin: 0 30px;
+}
+
+.footer2 li {
+  margin: 0 30px;
+  list-style-type: none;
+}
+
+.footer2 li a {
+  text-decoration: none;
+  color: white;
+}
+.footer1 {
+  font-size: 1.1rem;
+  margin: 0 50px;
+}
+
+/* 
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+} */
+
+.direction{
+  display: flex;
+  justify-content:flex-start;
+  /* align-items: center; */
+
+}
+
+.arrows{
+  width: 3%;
+  margin: 0 105px;
+}
+.image{
+  /* text-decoration: underline; */
+  animation: fadeIn 2.5s;
+}
